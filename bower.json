@@ -1,0 +1,22 @@
+{
+  "name": "belt_exam",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "davedreyer <davedreyer1234@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}

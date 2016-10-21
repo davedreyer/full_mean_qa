@@ -1,0 +1,15 @@
+<a href="#/dashboard">Home</a>
+<a href="#/question/{{ questionCurrent._id }}/show">Go Back to Question</a>
+<a href="/logout">Logout</a>
+
+<p>{{ questionCurrent.question }}</p>
+<p>{{ questionCurrent.description }}</p>
+
+<form ng-submit = "addAnswer(questionCurrent._id)">
+	<label>Your Answer:</label>
+	<textarea ng-model="newAnswer.content" rows="4"></textarea>
+	<label>Supporting details for your answer: (optional)</label>
+	<textarea ng-model="newAnswer.description" rows="4"></textarea>
+	<a href=#/dashboard><button>Cancel</button></a>
+	<input type="submit" value="Submit">
+</form>
